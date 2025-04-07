@@ -1,0 +1,42 @@
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-toggle {
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 200px;
+}
+
+.dropdown-item {
+    padding: 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+.dropdown-item:hover {
+    background-color: #e0e0e0;
+}
+
+.dropdown-item .checkmark {
+    position: absolute;
+    right: 10px;
+    display: none; /* Oculta el checkmark por defecto */
+}
+
+.dropdown-item.seleccionado .checkmark {
+    display: inline-block; /* Muestra el checkmark solo en el seleccionado */
+}
