@@ -1,0 +1,36 @@
+{
+    "teamName": "Acme Team",
+    "maxMembers": 5,
+    "members": [
+      {
+        "name": "John Doe",
+        "email": "john@doe.com",
+        "status": "Active",
+        "avatar": "https://i.pravatar.cc/50?u=john@doe.com"
+      },
+      {
+        "name": "Sarah Doe",
+        "email": "sarah@doe.com",
+        "status": "Active",
+        "avatar": "https://i.pravatar.cc/50?u=sarah@doe.com"
+      },
+      {
+        "name": "Steven Doe",
+        "email": "steven@doe.com",
+        "status": "Active",
+        "avatar": "https://i.pravatar.cc/50?u=steven@doe.com"
+      },
+      {
+        "name": "Jen Doe",
+        "email": "jen@doe.com",
+        "status": "Active",
+        "avatar": "https://i.pravatar.cc/50?u=jen@doe.com"
+      },
+      {
+        "name": "Joe Doe",
+        "email": "joe@doe.com",
+        "status": "Active",
+        "avatar": "https://i.pravatar.cc/50?u=joe@doe.com"
+      }
+    ]
+  }
